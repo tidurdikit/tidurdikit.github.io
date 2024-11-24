@@ -1,0 +1,64 @@
+/* Global Styles */
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header Styles */
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 56px;
+    border-bottom: 1px solid #2d2d2d;
+}
+.logo {
+    width: 3rem;
+}
+.nav-link {
+    color: #fff;
+}
+.nav-link:hover {
+    color: #9ca3af;
+}
+
+/* Section Styles */
+.section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.card {
+    background-color: #000;
+    padding: 4rem;
+    border-radius: 0.5rem;
+    border: 1px solid #3f3f46;
+}
+
+/* Social Link Card Styles */
+.social-link {
+    background-color: #000;
+    border: 1px solid #3f3f46;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+.social-link:hover {
+    background-color: #374151;
+}
+.social-link-icon {
+    color: #fff;
+    margin-right: 0.5rem;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid #2d2d2d;
+    text-align: center;
+    color: #6b7280;
+}
